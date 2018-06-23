@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="PrimaSeller Assignment">
+	<meta name="keywords" content="HTML,CSS,Jquery">
+	<meta name="author" content="Tejas Wasule">
+  
+    <title>Home</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<link href="css/generics.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!--HEADER--->
+    <header class="white_background">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                    <div class="col-md-4 col-sm-12 col-xs-12 col-lg-4">
+                        <a href=""><img id="mainLogo" class="img-responsive" src="imgs/musicLogoMain.png" alt="logo"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!--HEADER--->
+
+    <!--SEACH BAR -->
+    <div class="container faint_white_background margin-top-bootom-10">
+        <div id="searchBarDiv">
+            <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 padding-top-bootom-10">
+
+                <div class="col-md-11 col-sm-9 col-xs-9 col-lg-10 no-padding">
+                    <input id="searchInput" type="text" class="form-control" placeholder="Search">
+                </div>
+                <div class="col-md-1 col-sm-3 col-xs-3 col-lg-2 no-padding">
+                    <button id="searchBtn" type="button" class="btn btn-primary">Search</button>
+                </div>
+            </div>
+        </div>
+        <div id="back" class="display-none">
+            <a href="">Back to Search</a>
+        </div>
+
+    </div>
+    <!--SEACH BAR -->
+
+    <!--MAIN CONTENT-->
+    <div id="contentBarWrapperDiv" class="container display-none faint_white_background margin-top-bootom-10">
+        <div id="contentBarContentDiv" class="content col-md-6 col-sm-12 col-xs-12 col-lg-6 padding-top-bootom-10">
+            <h1 align="left">
+                Loading...!!!
+            </h1>
+        </div>
+        <div id="artistDetails" class="col-md-6 col-lg-6 col-sm-12 col-xs-12 padding-top-bootom-10">
+            &nbsp;
+        </div>
+        <div id="paginationWrapper" class="col-md-12 col-sm-12 col-xs-12 col-lg-12 padding-top-bootom-10">
+            <p class="artistPagination">
+
+            </p>
+            <p class="albumPagination display-none">
+
+            </p>
+
+        </div>
+    </div>
+    <!--MAIN CONTENT-->
+
+    <!-- Modal -->
+    <div id="myTracksModal" class="modal fade color-black" role="dialog">
+        <div class="modal-dialog tracksTable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4>Track Listing</h4>
+                </div>
+                <div class="modal-body">
+
+                    <div id="modalTopContent">
+                    </div>
+                    <table class="table table-hover table-bordered tracksTable">
+                        <thead>
+                            <tr>
+                                <th>Track Name</th>
+                                <th>Duration</th>
+                            </tr>
+                        </thead>
+                        <tbody id="TrackDetails">
+							 
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal -->
+
+    <!-- FOOTER -->
+    <footer class="white_background absolute-pos">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+                    &copy; Queen's Music Club 2018.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+    <!-- JS FILE INCLUDES BEGINS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/jquery.bootpag.js"></script>
+    <script src="js/page_actions.js"></script>
+    <script src="js/pagination.js"></script>
+    <script src="js/mapper.js"></script>
+
+
+    <!-- JS FILE INCLUDES ENDS -->
+
+</body>
+
+</html>

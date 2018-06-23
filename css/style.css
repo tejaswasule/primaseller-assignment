@@ -1,0 +1,30 @@
+ #searchBtn{
+     width:100%;
+}
+ #back{
+     height:40px;
+     font-family:20px;
+     padding:10px 0px ;
+}
+ #mainLogo{
+     height:50px;
+}
+ #paginationWrapper {
+     clear:both;
+     min-height:50px;
+}
+ #contentBarWrapperDiv{
+     height:auto;
+     overflow:auto;
+}
+ #contentBarContentDiv{
+     height:auto;
+     overflow:auto;
+}
+ #album_item{
+     border:1px solid white;
+     padding:10px 0px 20px 10px ;
+     height:130px;
+     margin-bottom:10px;
+}
+ 

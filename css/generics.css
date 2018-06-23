@@ -1,0 +1,104 @@
+body{
+     background:url('../imgs/remix.jpg') no-repeat fixed;
+     background-position: 0% 0% !important;
+     background-size: cover;
+     color: white !important;
+     margin: 0 0;
+     padding: 0;
+}
+ header{
+     height:50px;
+     overflow:hidden;
+}
+ footer{
+     width:100%;
+     padding:5px;
+     height:30px;
+     overflow:hidden;
+     text-align:right;
+}
+ .display-none{
+     display:none;
+}
+ .viewTracks{
+     color:blue;
+     cursor:pointer;
+}
+ .color-black{
+     color:black;
+}
+ .margin-top-30{
+     margin-top:30px;
+}
+ .no-margin{
+     margin:0px !important;
+}
+ .modal-body{
+     height:400px;
+     overflow:auto;
+}
+ .absolute-pos{
+     position:absolute;
+     left:0px;
+     bottom:0px;
+}
+ .float-left{
+     float:left;
+}
+ .album-name-track-details{
+     font-size:25px ;
+     font-weight:bold;
+}
+ .float-right{
+     float:right;
+}
+ .tracksTable{
+     color:black;
+}
+ .albumdetailsNameWrapper{
+     margin-top:10px;
+     height:70px;
+     font-weight:bold;
+}
+ .font-size-18px{
+     font-size:18px;
+}
+ .detailsWrapper{
+     border:1px solid white;
+     padding:10px;
+     height:120px;
+     margin-bottom:10px;
+}
+ .detailsNameWrapper{
+     margin-top:10px;
+     height:70px;
+     font-weight:bold;
+}
+ .detailsAnchorWrapper{
+     color:blue;
+     cursor:pointer;
+}
+ .padding-top-bootom-10{
+     padding-top:10px !important;
+     padding-bottom:10px !important;
+}
+ .margin-top-bootom-10{
+     margin-top:10px !important;
+     margin-bottom:10px !important;
+}
+ .no-padding{
+     padding:0px !important;
+}
+ .white_background{
+     color:black;
+     background:url('../imgs/background-white.png') no-repeat fixed;
+     background-size:cover;
+}
+ .faint_white_background{
+     color:black;
+     background:url('../imgs/bg2.png') no-repeat fixed;
+     background-size:cover;
+}
+ .content{
+     margin:10px 0px 10px 0px;
+}
